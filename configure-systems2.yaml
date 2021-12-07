@@ -1,12 +1,12 @@
 # Playbook to call multiple roles to configure systems
 - name: Configure systems
-  hosts: awstest.eastus.cloudapp.azure.com
+  hosts: 10.64.27.35m
   become: yes
 
   tasks:
 
 - name: Call Roles
-  hosts: awstest.eastus.cloudapp.azure.com
+  hosts: 10.64.27.35
   roles:
    #- hostname
    #- firewalld
