@@ -1,6 +1,6 @@
 # Playbook to call multiple roles to configure systems
 - name: Configure systems
-  hosts: 10.64.27.35m
+  hosts: 10.64.27.35
   become: yes
 
   tasks:
